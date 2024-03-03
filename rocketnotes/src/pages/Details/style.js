@@ -9,5 +9,18 @@ grid-template-rows: 105px auto;
 grid-template-areas:
 "header"
 "content"
- ;
 `
+
+export const Links = styled.div`
+list-style: none;
+
+>li{
+  margin: 12px ;
+
+}
+ a{
+  color: ${({theme})=> theme.COLORS.WHITE};
+ }
+
+`
+

@@ -33,7 +33,7 @@ border-radius: 50%;
   margin-left: 16px;
   line-height: 24px;
 
-  > span {
+  > span 
     font-size: 14px;
     color: ${({theme}) => theme.COLORS.GRAY_100};
   }
@@ -41,5 +41,13 @@ border-radius: 50%;
   strong {
     font-size: 18px;
     color: ${({theme}) => theme.COLORS.WHITE};
-}
-`
+  }`
+
+  export const Logout=  styled.button`
+  border: none;
+  background: none;
+
+  >svg {
+    color: ${({theme}) => theme.COLORS.GRAY_100};
+   font-size: 36px
+  }`
