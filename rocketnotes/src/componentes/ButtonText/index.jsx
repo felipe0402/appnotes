@@ -7,5 +7,5 @@ export function ButtonText({title,...rest}){
     {...rest}>
       {title}
     </Container>
-  )
+  );
 }

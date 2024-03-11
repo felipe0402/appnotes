@@ -19,8 +19,6 @@ export const Header = () => {
       <Logout>
         <RiShutDownLine/>
       </Logout>
-
-
     </Container>
   )
 }
